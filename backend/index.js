@@ -21,7 +21,7 @@ app.use(
     })
 )
 app.use(cookieParser())
-const clientUrl = process.env.CLIENT_URL || "http://localhost:5173"
+const clientUrl = "https://learnify-1-aoht.onrender.com"
 app.use(cors({
     origin: clientUrl,
     credentials:true
